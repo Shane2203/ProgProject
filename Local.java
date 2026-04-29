@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Online extends GameLibrary
+public class Local extends Game
 
 {
     // instance variables - replace the example below with your own
@@ -14,10 +14,10 @@ public class Online extends GameLibrary
     /**
      * Constructor for objects of class Online
      */
-    public Online()
+    public Local(Game games)
     {
         // initialise instance variables
-        x = 0;
+        super (games);
     }
 
     /**

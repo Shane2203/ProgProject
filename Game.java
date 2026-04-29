@@ -1,24 +1,23 @@
+import java.util.HashSet;
 
 /**
- * Write a description of class Singleplayer here.
+ * Write a description of class Game here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Singleplayer extends Game
-
+public class Game
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private HashSet<Game> games;
 
     /**
-     * Constructor for objects of class Singleplayer
+     * Constructor for objects of class Game
      */
-    public Singleplayer(Game gameName)
+    public Game()
     {
         // initialise instance variables
-        super (gameName);
-        
+        games = new HashSet<Game>();
     }
 
     /**
@@ -27,9 +26,8 @@ public class Singleplayer extends Game
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void addGame(Game game)
     {
-        // put your code here
-        return x + y;
+        games.add(game);
     }
 }

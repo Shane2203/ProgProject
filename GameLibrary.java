@@ -1,3 +1,4 @@
+import java.util.HashSet;
 
 /**
  * Write a description of class GameLibrary here.
@@ -5,24 +6,21 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class GameLibrary
+public class GameLibrary extends Game
 {
-    private String gameName;
     private String gameGenre;
     private int ageRating;
     private double gameRating;
-    // instance variables - replace the example below with your own
-    
 
     /**
      * Constructor for objects of class GameLibrary
      */
-    public GameLibrary(String gName, String genre)
+    public GameLibrary(String genre)
     {
         // initialise instance variables
-        this.gameName = gName;
         this.gameGenre = genre;
-        
+        int ageRating = 0;
+        double gameRating = 0;
     }
 
     /**
@@ -34,10 +32,5 @@ public class GameLibrary
     public int ageRating()
     {
         return ageRating;           
-    }
-    
-    public void gName()
-    {
-        return;
     }
 }
