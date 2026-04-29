@@ -7,8 +7,12 @@
  */
 public class GameLibrary
 {
+    private String gameName;
+    private String genre;
+    private int ageRating;
+    private double gameRating;
     // instance variables - replace the example below with your own
-    private int x;
+    
 
     /**
      * Constructor for objects of class GameLibrary
@@ -16,7 +20,7 @@ public class GameLibrary
     public GameLibrary()
     {
         // initialise instance variables
-        x = 0;
+    
     }
 
     /**
@@ -25,9 +29,13 @@ public class GameLibrary
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public int ageRating()
     {
         // put your code here
-        return x + y;
+        return ageRating;           
+    }
+    public void gameName()
+    {
+        return;
     }
 }
