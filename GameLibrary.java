@@ -20,8 +20,8 @@ public class GameLibrary
     public GameLibrary(String gName, String genre)
     {
         // initialise instance variables
-        gameName = gName;
-        gameGenre = genre;
+        this.gameName = gName;
+        this.gameGenre = genre;
         
     }
 
@@ -33,10 +33,10 @@ public class GameLibrary
      */
     public int ageRating()
     {
-        // put your code here
         return ageRating;           
     }
-    public void gameName()
+    
+    public void gName()
     {
         return;
     }
