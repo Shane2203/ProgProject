@@ -8,7 +8,7 @@
 public class GameLibrary
 {
     private String gameName;
-    private String genre;
+    private String gameGenre;
     private int ageRating;
     private double gameRating;
     // instance variables - replace the example below with your own
@@ -17,10 +17,12 @@ public class GameLibrary
     /**
      * Constructor for objects of class GameLibrary
      */
-    public GameLibrary()
+    public GameLibrary(String gName, String genre)
     {
         // initialise instance variables
-    
+        gameName = gName;
+        gameGenre = genre;
+        
     }
 
     /**
