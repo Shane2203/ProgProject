@@ -9,13 +9,29 @@ public class Multiplayer extends Game
 
 {
     private int maxPlayers;
-    private int minPlayers;
-
+    private int playerCount;
+    private GameModeType gameMode;
+    
     /**
      * Constructor for objects of class Multiplayer
      */
-    public Multiplayer(String gameName)
+    public Multiplayer()
     {
-        super (gameName);
+        
+    }
+    
+    public void addPlayer()
+    {
+        if(!isLobbyFull()) playerCount++;
+    }
+    
+    public boolean isLobbyFUll()
+    {
+        return playerCount >= maxPlayers;
+    }
+    
+    public void changeGameMode(GameModeType mode)
+    {
+        this.gameMode = mode;
     }
 }

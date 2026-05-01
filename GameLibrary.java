@@ -1,4 +1,5 @@
-import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Write a description of class GameLibrary here.
@@ -6,21 +7,20 @@ import java.util.HashSet;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class GameLibrary extends Game
+public class GameLibrary
 {
-    private String gameGenre;
-    private int ageRating;
+    private List<Game> games;
+    private GenreType gameGenre;
+    private AgeRating ageRating;
     private double gameRating;
 
     /**
      * Constructor for objects of class GameLibrary
      */
-    public GameLibrary(String genre)
+    public GameLibrary()
     {
         // initialise instance variables
-        this.gameGenre = genre;
-        int ageRating = 0;
-        double gameRating = 0;
+        games = new ArrayList<Game>();
     }
 
     /**
@@ -29,8 +29,8 @@ public class GameLibrary extends Game
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int ageRating()
+    public void addGame(Game game)
     {
-        return ageRating;           
+        games.add(game);           
     }
 }

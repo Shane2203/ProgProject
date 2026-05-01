@@ -5,19 +5,20 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Local extends Game
-
+public class Online extends Multiplayer
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private String serverAddress;
+    private int ping;
+    private String sessionID;
+    
     /**
      * Constructor for objects of class Online
      */
-    public Local(Game games)
+    public Online()
     {
         // initialise instance variables
-        super (games);
+        
     }
 
     /**
@@ -26,9 +27,14 @@ public class Local extends Game
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void connectToServer(string address)
     {
         // put your code here
-        return x + y;
+        this.serverAddress = address;
+    }
+    
+    public void disconnect()
+    {
+        System.out.println("Disconnected from server.";
     }
 }

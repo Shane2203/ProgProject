@@ -6,19 +6,19 @@
  * @version (a version number or a date)
  */
 public class Singleplayer extends Game
-
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private DifficultyLevel difficultyLevel;
+    private int currentCheckpoint;
+    private double storyProgress;
 
     /**
      * Constructor for objects of class Singleplayer
      */
-    public Singleplayer(Game gameName)
+    public Singleplayer()
     {
         // initialise instance variables
-        super (gameName);
-        
+        x = 0;
     }
 
     /**
@@ -27,9 +27,14 @@ public class Singleplayer extends Game
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void loadCheckpoint()
     {
         // put your code here
-        return x + y;
+        System.out.println("Loading checkpoiny" + currentCheckpoint);
+    }
+    
+    public void restartLevel()
+    {
+        currentCheckpoint = 0;
     }
 }

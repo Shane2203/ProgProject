@@ -9,15 +9,20 @@ import java.util.HashSet;
 public class Game
 {
     // instance variables - replace the example below with your own
-    private HashSet<Game> games;
+    private String gameName;
+    private String developer;
+    private double version;
+    private Platform platform;
+    private boolean isPaused;
+
 
     /**
      * Constructor for objects of class Game
      */
     public Game()
     {
-        // initialise instance variables
-        games = new HashSet<Game>();
+        
+        
     }
 
     /**
@@ -26,8 +31,27 @@ public class Game
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public void addGame(Game game)
+    public void startGame()
     {
-        games.add(game);
+        // initialise instance variables
+        isPaused = false;
+        System.out.println(gameName + "started.");
+
     }
-}
+    
+    public void pauseGame()
+    {
+        isPaused = true;
+    }
+    
+    public void  resumeGame()
+    {
+        isPaused = false;
+    }
+    
+    public void stopGame()
+    {
+        System.out.println("Game stopped");
+    }
+}   
+
