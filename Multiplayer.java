@@ -25,7 +25,7 @@ public class Multiplayer extends Game
         if(!isLobbyFull()) playerCount++;
     }
     
-    public boolean isLobbyFUll()
+    public boolean isLobbyFull()
     {
         return playerCount >= maxPlayers;
     }

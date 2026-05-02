@@ -35,6 +35,6 @@ public class Online extends Multiplayer
     
     public void disconnect()
     {
-        System.out.println("Disconnected from server.";
+        System.out.println("Disconnected from server.");
     }
 }

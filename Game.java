@@ -12,7 +12,7 @@ public class Game
     private String gameName;
     private String developer;
     private double version;
-    private Platform platform;
+    private PlatformType platform;
     private boolean isPaused;
 
 

@@ -1,7 +1,13 @@
 #BlueJ class context
 comment0.target=Multiplayer
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Multiplayer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=gameName
-comment1.target=Multiplayer(java.lang.String)
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Multiplayer\r\n
-numComments=2
+comment0.text=\n\ Write\ a\ description\ of\ class\ Multiplayer\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Multiplayer()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Multiplayer\n
+comment2.params=
+comment2.target=void\ addPlayer()
+comment3.params=
+comment3.target=boolean\ isLobbyFull()
+comment4.params=mode
+comment4.target=void\ changeGameMode(GameModeType)
+numComments=5
