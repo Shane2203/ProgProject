@@ -17,8 +17,7 @@ public class Singleplayer extends Game
      */
     public Singleplayer()
     {
-        // initialise instance variables
-        x = 0;
+
     }
 
     /**

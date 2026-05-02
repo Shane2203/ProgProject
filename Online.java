@@ -27,7 +27,7 @@ public class Online extends Multiplayer
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public void connectToServer(string address)
+    public void connectToServer(String address)
     {
         // put your code here
         this.serverAddress = address;
