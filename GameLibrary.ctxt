@@ -1,10 +1,34 @@
 #BlueJ class context
 comment0.target=GameLibrary
+<<<<<<< Updated upstream
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameLibrary\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+=======
+<<<<<<< HEAD
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameLibrary\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+=======
+<<<<<<< HEAD
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameLibrary\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+=======
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameLibrary\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+>>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
+>>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
+>>>>>>> Stashed changes
 comment1.params=
 comment1.target=GameLibrary()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameLibrary\r\n
 comment2.params=game
 comment2.target=void\ addGame(Game)
+<<<<<<< Updated upstream
 comment2.text=\r\n\ A\ method\ to\ add\ a\ game\r\n\r\n
+=======
+<<<<<<< HEAD
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+=======
+<<<<<<< HEAD
+comment2.text=\r\n\ A\ method\ to\ add\ a\ game\r\n\r\n
+=======
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+>>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
+>>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
+>>>>>>> Stashed changes
 numComments=3

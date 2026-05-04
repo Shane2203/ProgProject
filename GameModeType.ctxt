@@ -1,4 +1,12 @@
 #BlueJ class context
 comment0.target=GameModeType
+<<<<<<< Updated upstream
 comment0.text=\r\n\ Enumeration\ class\ GameModeType\ -\ write\ a\ description\ of\ the\ enum\ class\ here\r\n\r\n\ @author\ (Ozgur)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+=======
+<<<<<<< HEAD
+comment0.text=\r\n\ Enumeration\ class\ GameModeType\ -\ write\ a\ description\ of\ the\ enum\ class\ here\r\n\r\n\ @author\ (Ozgur)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+=======
+comment0.text=\r\n\ Enumeration\ class\ GameModeType\ -\ write\ a\ description\ of\ the\ enum\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+>>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
+>>>>>>> Stashed changes
 numComments=1

@@ -1,10 +1,20 @@
 #BlueJ class context
 comment0.target=Character
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Character\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Character\ here.\r\n\r\n\ @author\ (Ozgur)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 =======
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Character\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 >>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
+<<<<<<< Updated upstream
+=======
+>>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
+>>>>>>> Stashed changes
 comment1.params=
 comment1.target=Character()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Character\r\n
