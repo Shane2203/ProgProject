@@ -3,11 +3,7 @@
  * Write a description of class Character here.
  *
  * @author (Ozgur)
-<<<<<<< HEAD
- * @version (a version number or a date)
-=======
  * @version (5/4/2)
->>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
  */
 public class Character extends Singleplayer
 {
