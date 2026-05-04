@@ -2,7 +2,7 @@
 /**
  * Write a description of class Singleplayer here.
  *
- * @author (your name)
+ * @author (Rushane)
  * @version (a version number or a date)
  */
 public class Singleplayer extends Game
@@ -21,17 +21,18 @@ public class Singleplayer extends Game
     }
 
     /**
-     * An example of a method - replace this comment with your own
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * 
      */
     public void loadCheckpoint()
     {
         // put your code here
-        System.out.println("Loading checkpoiny" + currentCheckpoint);
+        System.out.println("Loading checkpoint" + currentCheckpoint);
     }
     
+    /**
+     * 
+     */
     public void restartLevel()
     {
         currentCheckpoint = 0;

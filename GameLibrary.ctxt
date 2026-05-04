@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=GameLibrary
-comment0.text=\n\ Write\ a\ description\ of\ class\ GameLibrary\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameLibrary\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=GameLibrary()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ GameLibrary\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameLibrary\r\n
 comment2.params=game
 comment2.target=void\ addGame(Game)
-comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+comment2.text=\r\n\ A\ method\ to\ add\ a\ game\r\n\r\n
 numComments=3

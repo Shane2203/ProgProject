@@ -17,12 +17,16 @@ public class Multiplayer extends Game
      */
     public Multiplayer()
     {
+        this.maxPlayers = maxPlayers;
+        this.playerCount = playerCount;
         
     }
     
     public void addPlayer()
     {
-        if(!isLobbyFull()) playerCount++;
+        if(!isLobbyFull()){
+            playerCount++;
+        }
     }
     
     public boolean isLobbyFull()
