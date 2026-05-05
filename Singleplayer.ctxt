@@ -1,29 +1,27 @@
 #BlueJ class context
 comment0.target=Singleplayer
-<<<<<<< Updated upstream
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Singleplayer\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-=======
-<<<<<<< HEAD
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Singleplayer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-=======
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Singleplayer\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
->>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
->>>>>>> Stashed changes
-comment1.params=
-comment1.target=Singleplayer()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Singleplayer\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Singleplayer\ here.\n\n\ @author\ (Rushane)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name\ platform\ difficulty
+comment1.target=Singleplayer(java.lang.String,\ PlatformType,\ DifficultyLevel)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Singleplayer\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=obj
+comment11.target=boolean\ equals(java.lang.Object)
 comment2.params=
-comment2.target=void\ loadCheckpoint()
-<<<<<<< Updated upstream
-comment2.text=\r\n\r\n\ \r\n
-=======
-<<<<<<< HEAD
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-=======
-comment2.text=\r\n\r\n\ \r\n
->>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
->>>>>>> Stashed changes
+comment2.target=DifficultyLevel\ getDIfficultyLevel()
 comment3.params=
-comment3.target=void\ restartLevel()
-comment3.text=\r\n\ \r\n
-numComments=4
+comment3.target=int\ getCurrentCheckpoint()
+comment4.params=
+comment4.target=double\ getStoryProgress()
+comment5.params=difficultyLevel
+comment5.target=void\ setDifficultyLevel(DifficultyLevel)
+comment6.params=currentCheckpoint
+comment6.target=void\ setCurrentCheckpoint(int)
+comment7.params=storyProgress
+comment7.target=void\ setStoryProgress(double)
+comment8.params=
+comment8.target=void\ loadCheckpoint()
+comment9.params=
+comment9.target=void\ restartLevel()
+numComments=12
