@@ -1,37 +1,28 @@
 #BlueJ class context
 comment0.target=Online
-<<<<<<< Updated upstream
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Online\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-=======
-<<<<<<< HEAD
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Online\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-=======
-<<<<<<< HEAD
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Online\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-=======
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Online\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
->>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
->>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
->>>>>>> Stashed changes
-comment1.params=
-comment1.target=Online()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Online\r\n
-comment2.params=address
-comment2.target=void\ connectToServer(java.lang.String)
-<<<<<<< Updated upstream
-comment2.text=\r\n\ \r\n
-=======
-<<<<<<< HEAD
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-=======
-<<<<<<< HEAD
-comment2.text=\r\n\ \r\n
-=======
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
->>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
->>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
->>>>>>> Stashed changes
-comment3.params=
-comment3.target=void\ disconnect()
-comment3.text=\r\n\ \r\n
-numComments=4
+comment0.text=\n\ Write\ a\ description\ of\ class\ Online\ here.\n\n\ @author\ (Rushane)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name\ platform\ maxPlayers\ mode\ serverAddress
+comment1.target=Online(java.lang.String,\ PlatformType,\ int,\ GameModeType,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Online\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=obj
+comment11.target=boolean\ equals(java.lang.Object)
+comment2.params=
+comment2.target=java.lang.String\ getServerAddress()
+comment3.params=serverAddress
+comment3.target=void\ setServerAddress(java.lang.String)
+comment4.params=
+comment4.target=int\ getPing()
+comment5.params=ping
+comment5.target=void\ setPing(int)
+comment6.params=
+comment6.target=java.lang.String\ getSessionId()
+comment7.params=sessionId
+comment7.target=void\ setSessionId(java.lang.String)
+comment8.params=address
+comment8.target=void\ connectToServer(java.lang.String)
+comment9.params=
+comment9.target=void\ disconnect()
+comment9.text=\n\ \n
+numComments=12
