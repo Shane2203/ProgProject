@@ -1,68 +1,117 @@
-
 /**
- * Write a description of class Character here.
- *
- * @author (Ozgur)
- * @version (5/4/2)
+ * Represents a character in a game.
+ * 
+ * @author Ozgur
  */
-public class Character extends Singleplayer
+public class Character
 {
-    // instance variables - replace the example below with your own
     private String name;
     private int health;
     private double attack;
     private double defense;
-    
-    /**
-     * Constructor for objects of class Character
-     */
-    public Character()
+    private int level;
+
+    public Character(String name, int health, double attack, double defense)
     {
-        int health = 20;
-        
+        this.name = name;
+        this.health = health;
+        this.attack = attack;
+        this.defense = defense;
+        this.level = 1;
     }
 
-    /**
-     * This is where the Character will be taking damage
-     */
-    public int takeDamage()
+    public void takeDamage(double damage)
     {
-        // put your code here
+        double reducedDamage = damage - defense;
+        if (reducedDamage < 0) reducedDamage = 0;
+
+        health -= reducedDamage;
+
+        if (health < 0)
+        {
+            health = 0;
+        }
     }
-    
-    /**
-     * This is where the character will send out an attac
-     */
-    public int attack()
+
+    public double attack()
     {
-        
+        return attack * level;
     }
-    
-    /**
-     * This is where the character will regain some health.
-     */
-    public int heal()
+
+    public void heal(int amount)
     {
-        
+        health += amount;
     }
-    
-    /**
-     * This is where it increases the character's level by +1.
-     */
-    public int levelUp()
+
+    public void levelUp()
     {
-        
+        level++;
+        attack += 2;
+        defense += 1;
     }
-    
-    /**
-     * This will confirm the character's
-     */
+
     public boolean isAlive()
     {
-        if(health > 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return health > 0;
+    }
+
+    public String getName() 
+    { 
+        return name; 
+    }
+    
+    public int getHealth() 
+    { 
+        return health; 
+    }
+    
+    public double getAttack() 
+    { 
+        return attack; 
+    }
+    public double getDefense() 
+    { 
+        return defense; 
+    }
+    
+    public int getLevel() 
+    { 
+        return level; 
+    }
+
+    public void setName(String name) 
+    { 
+        this.name = name; 
+    }
+    
+    public void setHealth(int health) 
+    { 
+        this.health = health; 
+    }
+    
+    public void setAttack(double attack) 
+    { 
+        this.attack = attack; 
+    }
+    
+    public void setDefense(double defense) 
+    { 
+        this.defense = defense; 
+    }
+
+    @Override
+    public String toString()
+    {
+        return name + " [HP: " + health + ", ATK: " + attack + ", DEF: " + defense + "]";
+    }
+
+    @Override
+    public boolean equals(Object obj)
+    {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+
+        Character other = (Character) obj;
+        return name.equals(other.name);
     }
 }
