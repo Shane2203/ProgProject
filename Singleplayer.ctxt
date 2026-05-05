@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Singleplayer
-comment0.text=\n\ Write\ a\ description\ of\ class\ Singleplayer\ here.\n\n\ @author\ (Rushane)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Singleplayer\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=name\ platform\ difficulty
 comment1.target=Singleplayer(java.lang.String,\ PlatformType,\ DifficultyLevel)
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Singleplayer\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Singleplayer\r\n
 comment10.params=
 comment10.target=java.lang.String\ toString()
 comment11.params=obj
