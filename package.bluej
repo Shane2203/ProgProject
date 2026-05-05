@@ -1,19 +1,20 @@
 #BlueJ package file
-dependency1.from=GameLibrary
-dependency1.to=Game
+dependency1.from=Game
+dependency1.to=PlatformType
 dependency1.type=UsesDependency
-dependency2.from=GameLibrary
-dependency2.to=GenreType
+dependency2.from=Multiplayer
+dependency2.to=GameModeType
 dependency2.type=UsesDependency
 dependency3.from=GameLibrary
-dependency3.to=AgeRating
+dependency3.to=Game
 dependency3.type=UsesDependency
-dependency4.from=Singleplayer
-dependency4.to=DifficultyLevel
+dependency4.from=GameLibrary
+dependency4.to=GenreType
 dependency4.type=UsesDependency
-dependency5.from=Multiplayer
-dependency5.to=GameModeType
+dependency5.from=GameLibrary
+dependency5.to=AgeRating
 dependency5.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -29,89 +30,166 @@ package.editor.y=33
 package.frame.height=859
 package.frame.width=1117
 package.numDependencies=5
+=======
+dependency6.from=Singleplayer
+dependency6.to=DifficultyLevel
+dependency6.type=UsesDependency
+<<<<<<< Updated upstream
+editor.fx.0.height=1039
+editor.fx.0.width=857
+editor.fx.0.x=980
+editor.fx.0.y=40
+objectbench.height=186
+objectbench.width=1164
+package.divider.horizontal=0.6
+package.divider.vertical=0.7512886597938144
+package.editor.height=576
+package.editor.width=1061
+package.editor.x=503
+package.editor.y=196
+package.frame.height=876
+package.frame.width=1204
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+objectbench.height=187
+objectbench.width=799
+package.divider.horizontal=0.6
+package.divider.vertical=0.7240398293029872
+package.editor.height=489
+package.editor.width=696
+package.editor.x=2824
+package.editor.y=243
+package.frame.height=803
+package.frame.width=839
+>>>>>>> Stashed changes
+package.numDependencies=6
+>>>>>>> 6872bb79fee0ab2e8ae17c5fce4061b8214ecebe
 package.numTargets=11
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 readme.height=60
 readme.name=@README
-readme.width=48
+readme.width=49
 readme.x=10
 readme.y=10
 target1.height=70
-target1.name=GenreType
+target1.name=Game
 target1.showInterface=false
-target1.type=EnumTarget
+target1.type=ClassTarget
 target1.width=120
+<<<<<<< HEAD
 target1.x=790
 target1.y=530
+=======
+target1.x=330
+target1.y=20
+>>>>>>> 6872bb79fee0ab2e8ae17c5fce4061b8214ecebe
 target10.height=70
 target10.name=PlatformType
 target10.showInterface=false
 target10.type=EnumTarget
 target10.width=120
+<<<<<<< HEAD
 target10.x=770
 target10.y=90
+=======
+target10.x=340
+target10.y=250
+>>>>>>> 6872bb79fee0ab2e8ae17c5fce4061b8214ecebe
 target11.height=70
 target11.name=Online
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=120
+<<<<<<< HEAD
 target11.x=550
 target11.y=140
+=======
+target11.x=880
+target11.y=200
+>>>>>>> 6872bb79fee0ab2e8ae17c5fce4061b8214ecebe
 target2.height=70
-target2.name=Game
+target2.name=GenreType
 target2.showInterface=false
-target2.type=ClassTarget
+target2.type=EnumTarget
 target2.width=120
-target2.x=250
-target2.y=30
+target2.x=880
+target2.y=300
 target3.height=70
-target3.name=GameModeType
+target3.name=Character
 target3.showInterface=false
-target3.type=EnumTarget
+target3.type=ClassTarget
 target3.width=120
-target3.x=780
-target3.y=220
+target3.x=600
+target3.y=120
 target4.height=70
-target4.name=Character
+target4.name=GameModeType
 target4.showInterface=false
-target4.type=ClassTarget
-target4.width=120
-target4.x=480
-target4.y=40
+target4.type=EnumTarget
+target4.width=130
+<<<<<<< Updated upstream
+target4.x=880
+target4.y=390
+=======
+target4.x=550
+target4.y=330
+>>>>>>> Stashed changes
 target5.height=70
 target5.name=Multiplayer
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
-target5.x=360
-target5.y=150
+<<<<<<< Updated upstream
+target5.x=340
+target5.y=130
+=======
+target5.x=300
+target5.y=200
+>>>>>>> Stashed changes
 target6.height=70
-target6.name=GameLibrary
+target6.name=AgeRating
 target6.showInterface=false
-target6.type=ClassTarget
+target6.type=EnumTarget
 target6.width=120
-target6.x=20
-target6.y=120
+<<<<<<< Updated upstream
+target6.x=880
+target6.y=110
+=======
+target6.x=560
+target6.y=10
+>>>>>>> Stashed changes
 target7.height=70
-target7.name=AgeRating
+target7.name=GameLibrary
 target7.showInterface=false
-target7.type=EnumTarget
+target7.type=ClassTarget
 target7.width=120
+<<<<<<< HEAD
 target7.x=790
 target7.y=430
+=======
+target7.x=30
+target7.y=90
+>>>>>>> 6872bb79fee0ab2e8ae17c5fce4061b8214ecebe
 target8.height=70
 target8.name=Singleplayer
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=120
-target8.x=190
-target8.y=140
+target8.x=40
+target8.y=410
 target9.height=70
 target9.name=DifficultyLevel
 target9.showInterface=false
 target9.type=EnumTarget
 target9.width=120
+<<<<<<< HEAD
 target9.x=790
 target9.y=330
+=======
+target9.x=880
+target9.y=480
+>>>>>>> 6872bb79fee0ab2e8ae17c5fce4061b8214ecebe

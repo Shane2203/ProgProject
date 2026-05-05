@@ -3,7 +3,7 @@ import java.util.HashSet;
 /**
  * Write a description of class Game here.
  *
- * @author (your name)
+ * @author (Rushane)
  * @version (a version number or a date)
  */
 public class Game
@@ -15,7 +15,6 @@ public class Game
     private PlatformType platform;
     private boolean isPaused;
 
-
     /**
      * Constructor for objects of class Game
      */
@@ -25,7 +24,7 @@ public class Game
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * 
      *
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
@@ -38,16 +37,23 @@ public class Game
 
     }
     
+    /**
+     * 
+     */
     public void pauseGame()
     {
         isPaused = true;
     }
     
-    public void  resumeGame()
+    /**
+     * 
+     */public void  resumeGame()
     {
         isPaused = false;
     }
     
+    /**
+     */
     public void stopGame()
     {
         System.out.println("Game stopped");

@@ -2,7 +2,7 @@
 /**
  * Write a description of class Online here.
  *
- * @author (your name)
+ * @author (Rushane)
  * @version (a version number or a date)
  */
 public class Online extends Multiplayer
@@ -22,10 +22,7 @@ public class Online extends Multiplayer
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * 
      */
     public void connectToServer(String address)
     {
@@ -33,7 +30,9 @@ public class Online extends Multiplayer
         this.serverAddress = address;
     }
     
-    public void disconnect()
+    /**
+     * 
+     */public void disconnect()
     {
         System.out.println("Disconnected from server.");
     }

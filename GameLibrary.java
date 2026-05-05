@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Write a description of class GameLibrary here.
  *
- * @author (your name)
+ * @author (Rushane)
  * @version (a version number or a date)
  */
 public class GameLibrary
@@ -24,10 +24,8 @@ public class GameLibrary
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * A method to add a game
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
      */
     public void addGame(Game game)
     {

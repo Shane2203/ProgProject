@@ -2,32 +2,67 @@
 /**
  * Write a description of class Character here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Ozgur)
+ * @version (5/4/2)
  */
-public class Character extends Game
+public class Character extends Singleplayer
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private String name;
+    private int health;
+    private double attack;
+    private double defense;
+    
     /**
      * Constructor for objects of class Character
      */
     public Character()
     {
-        // initialise instance variables
-        x = 0;
+        int health = 20;
+        
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * This is where the Character will be taking damage
      */
-    public int sampleMethod(int y)
+    public int takeDamage()
     {
         // put your code here
-        return x + y;
+    }
+    
+    /**
+     * This is where the character will send out an attac
+     */
+    public int attack()
+    {
+        
+    }
+    
+    /**
+     * This is where the character will regain some health.
+     */
+    public int heal()
+    {
+        
+    }
+    
+    /**
+     * This is where it increases the character's level by +1.
+     */
+    public int levelUp()
+    {
+        
+    }
+    
+    /**
+     * This will confirm the character's
+     */
+    public boolean isAlive()
+    {
+        if(health > 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
