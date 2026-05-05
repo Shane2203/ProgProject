@@ -1,24 +1,38 @@
 #BlueJ class context
 comment0.target=Character
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Character\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Character\ here.\r\n\r\n\ @author\ (Ozgur)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-=======
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Character\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
->>>>>>> 7ea84c72365f7ce1fcaed7b631665a7a25251157
-<<<<<<< Updated upstream
-=======
->>>>>>> c8f919e42e4a5c24739252217cae5e71f28e70a7
->>>>>>> Stashed changes
-comment1.params=
-comment1.target=Character()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Character\r\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-numComments=3
+comment0.text=\r\n\ Represents\ a\ character\ in\ a\ game.\r\n\ \r\n\ @author\ Ozgur\r\n
+comment1.params=name\ health\ attack\ defense
+comment1.target=Character(java.lang.String,\ int,\ double,\ double)
+comment10.params=
+comment10.target=double\ getDefense()
+comment11.params=
+comment11.target=int\ getLevel()
+comment12.params=name
+comment12.target=void\ setName(java.lang.String)
+comment13.params=health
+comment13.target=void\ setHealth(int)
+comment14.params=attack
+comment14.target=void\ setAttack(double)
+comment15.params=defense
+comment15.target=void\ setDefense(double)
+comment16.params=
+comment16.target=java.lang.String\ toString()
+comment17.params=obj
+comment17.target=boolean\ equals(java.lang.Object)
+comment2.params=damage
+comment2.target=void\ takeDamage(double)
+comment3.params=
+comment3.target=double\ attack()
+comment4.params=amount
+comment4.target=void\ heal(int)
+comment5.params=
+comment5.target=void\ levelUp()
+comment6.params=
+comment6.target=boolean\ isAlive()
+comment7.params=
+comment7.target=java.lang.String\ getName()
+comment8.params=
+comment8.target=int\ getHealth()
+comment9.params=
+comment9.target=double\ getAttack()
+numComments=18
