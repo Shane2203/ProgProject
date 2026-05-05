@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Represents a collection of games.
  * 
- * @author Rushane
+ * @author Rushane/Ozgur
  */
 public class GameLibrary
 {

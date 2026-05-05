@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 /**
  * The test class CharacterTest.
  *
- * @author  (your name)
+ * @author  Ozgur
  * @version (a version number or a date)
  */
 public class CharacterTest

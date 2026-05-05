@@ -2,7 +2,7 @@
 /**
  * Write a description of class Multiplayer here.
  *
- * @author (your name)
+ * @author Shane
  * @version (a version number or a date)
  */
 public class Multiplayer extends Game
