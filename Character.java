@@ -70,6 +70,7 @@ public class Character extends Singleplayer
     { 
         return attack; 
     }
+    
     public double getDefense() 
     { 
         return defense; 
@@ -106,6 +107,9 @@ public class Character extends Singleplayer
         return name + " [HP: " + health + ", ATK: " + attack + ", DEF: " + defense + "]";
     }
 
+    /*
+     * compares two character obj
+     */
     @Override
     public boolean equals(Object obj)
     {
