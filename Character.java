@@ -3,7 +3,7 @@
  * 
  * @author Ozgur
  */
-public class Character
+public class Character extends Singleplayer
 {
     private String name;
     private int health;
@@ -13,6 +13,7 @@ public class Character
 
     public Character(String name, int health, double attack, double defense)
     {
+        super(name,PlatformType.PC,DifficultyLevel.NORMAL);
         this.name = name;
         this.health = health;
         this.attack = attack;

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Character
-comment0.text=\r\n\ Represents\ a\ character\ in\ a\ game.\r\n\ \r\n\ @author\ Ozgur\r\n
+comment0.text=\n\ Represents\ a\ character\ in\ a\ game.\n\ \n\ @author\ Ozgur\n
 comment1.params=name\ health\ attack\ defense
 comment1.target=Character(java.lang.String,\ int,\ double,\ double)
 comment10.params=
