@@ -13,10 +13,10 @@ public class Game
     private double rating;
     private boolean isPaused;
 
-    public Game(String gameName, String developer, double version,
+    public Game(String name, String developer, double version,
                 PlatformType platform, GenreType genre, double rating)
     {
-        this.gameName = gameName;
+        this.gameName = name;
         this.developer = developer;
         this.version = version;
         this.platform = platform;
