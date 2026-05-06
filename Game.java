@@ -124,7 +124,6 @@ public class Game
         if (obj == null || getClass() != obj.getClass()) return false;
 
         Game other = (Game) obj;
-        return gameName.equals(other.gameName) &&
-               developer.equals(other.developer);
+        return gameName.equals(other.gameName) && developer.equals(other.developer);
     }
 }
