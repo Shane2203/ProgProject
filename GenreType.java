@@ -1,6 +1,6 @@
 
 /**
- * Enumeration class GameGenre - write a description of the enum class here
+ * Enumeration class GameGenre - every enumartion for different type of game genre.
  *
  * @author (Ozgur)
  * @version (version number or date here)

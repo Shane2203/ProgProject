@@ -1,6 +1,6 @@
 
 /**
- * Enumeration class DifficultyLevel - write a description of the enum class here
+ * Enumeration class DifficultyLevel - every enumartion for different type of level difficulty.
  *
  * @author (Ozgur)
  * @version (version number or date here)

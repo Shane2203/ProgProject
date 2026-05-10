@@ -1,16 +1,20 @@
 /**
- * Represents a character in a game.
+ * Represents a character in a game with combat-related stats.
+ * A character object has health, attack, defense, and can perform actions (Attacking, taking dmg, healing, and leveling up).
  * 
  * @author Ozgur
  */
 public class Character 
 {
+    // variable for the creation of a character
     private String name;
     private int health;
     private double attack;
     private double defense;
     private int level;
-
+    /*
+     * Constructor, initializes all important stats.
+     */
     public Character(String name, int health, double attack, double defense)
     {
         this.name = name;
@@ -19,11 +23,14 @@ public class Character
         this.defense = defense;
         this.level = 1;
     }
-
+    
+    /*
+     * reduces character health, defense will reduce amount of damage taken.
+     */ 
     public void takeDamage(double damage)
     {
         double reducedDamage = damage - defense;
-        if (reducedDamage < 0) reducedDamage = 0;
+        if (reducedDamage < 0) reducedDamage = 0; //prevents negative damage
 
         health -= reducedDamage;
 
@@ -32,29 +39,44 @@ public class Character
             health = 0;
         }
     }
-
+    
+    /*
+     * calculate the attack damage. attack increases based off level
+     */
     public double attack()
     {
         return attack * level;
     }
-
+    
+    /*
+     * increases health by amount
+     */
     public void heal(int amount)
     {
         health += amount;
     }
-
+    
+    /*
+     * increases level and once increased, stats improve.
+     */
     public void levelUp()
     {
         level++;
         attack += 2;
         defense += 1;
     }
-
+    
+    /*
+     * checks if character alive. 
+     */
     public boolean isAlive()
     {
         return health > 0;
     }
-
+    
+    /*
+     * getters
+     */
     public String getName() 
     { 
         return name; 
@@ -79,7 +101,10 @@ public class Character
     { 
         return level; 
     }
-
+    
+    /*
+     * Setters
+     */
     public void setName(String name) 
     { 
         this.name = name; 
@@ -99,7 +124,10 @@ public class Character
     { 
         this.defense = defense; 
     }
-
+    
+    /*
+     * returns description of character
+     */
     @Override
     public String toString()
     {
@@ -107,7 +135,7 @@ public class Character
     }
 
     /*
-     * compares two character obj
+     * compares two character obj based off name.
      */
     @Override
     public boolean equals(Object obj)

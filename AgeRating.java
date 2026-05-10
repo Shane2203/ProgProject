@@ -1,6 +1,6 @@
 
 /**
- * Enumeration class AgeRating - write a description of the enum class here
+ * Enumeration class AgeRating - every enumartion for different type of age rating.
  *
  * @author (Ozgur)
  * @version (version number or date here)

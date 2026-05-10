@@ -1,6 +1,6 @@
 
 /**
- * Enumeration class PlatformType - write a description of the enum class here
+ * Enumeration class PlatformType - every enumartion for different type of system to play on.
  *
  * @author (Ozgur)
  * @version (version number or date here)

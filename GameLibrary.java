@@ -3,6 +3,7 @@ import java.util.List;
 
 /**
  * Represents a collection of games.
+ * This class organizes, stores, searches, and manages game objects. It's basically a database.
  * 
  * @author Rushane/Ozgur
  */

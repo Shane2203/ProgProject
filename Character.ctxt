@@ -1,14 +1,24 @@
 #BlueJ class context
 comment0.target=Character
+<<<<<<< Updated upstream
 comment0.text=\n\ Represents\ a\ character\ in\ a\ game.\n\ \n\ @author\ Ozgur\n
+=======
+<<<<<<< HEAD
+comment0.text=\r\n\ Represents\ a\ character\ in\ a\ game\ with\ combat-related\ stats.\r\n\ A\ character\ object\ has\ health,\ attack,\ defense,\ and\ can\ perform\ actions\ (Attacking,\ taking\ dmg,\ healing,\ and\ leveling\ up).\r\n\ \r\n\ @author\ Ozgur\r\n
+=======
+comment0.text=\n\ Represents\ a\ character\ in\ a\ game.\n\ \n\ @author\ Ozgur\n
+>>>>>>> 259a5edf6ce0213a266cc5b9ed3f1bf258b6729e
+>>>>>>> Stashed changes
 comment1.params=name\ health\ attack\ defense
 comment1.target=Character(java.lang.String,\ int,\ double,\ double)
+comment1.text=\r\n\ Constructor,\ initializes\ all\ important\ stats.\r\n
 comment10.params=
 comment10.target=double\ getDefense()
 comment11.params=
 comment11.target=int\ getLevel()
 comment12.params=name
 comment12.target=void\ setName(java.lang.String)
+comment12.text=\r\n\ Setters\r\n
 comment13.params=health
 comment13.target=void\ setHealth(int)
 comment14.params=attack
@@ -17,21 +27,36 @@ comment15.params=defense
 comment15.target=void\ setDefense(double)
 comment16.params=
 comment16.target=java.lang.String\ toString()
+comment16.text=\r\n\ returns\ description\ of\ character\r\n
 comment17.params=obj
 comment17.target=boolean\ equals(java.lang.Object)
+<<<<<<< Updated upstream
 comment17.text=\n\ compares\ two\ character\ obj\n
+=======
+<<<<<<< HEAD
+comment17.text=\r\n\ compares\ two\ character\ obj\ based\ off\ name.\r\n
+=======
+comment17.text=\n\ compares\ two\ character\ obj\n
+>>>>>>> 259a5edf6ce0213a266cc5b9ed3f1bf258b6729e
+>>>>>>> Stashed changes
 comment2.params=damage
 comment2.target=void\ takeDamage(double)
+comment2.text=\r\n\ reduces\ character\ health,\ defense\ will\ reduce\ amount\ of\ damage\ taken.\r\n
 comment3.params=
 comment3.target=double\ attack()
+comment3.text=\r\n\ calculate\ the\ attack\ damage.\ attack\ increases\ based\ off\ level\r\n
 comment4.params=amount
 comment4.target=void\ heal(int)
+comment4.text=\r\n\ increases\ health\ by\ amount\r\n
 comment5.params=
 comment5.target=void\ levelUp()
+comment5.text=\r\n\ increases\ level\ and\ once\ increased,\ stats\ improve.\r\n
 comment6.params=
 comment6.target=boolean\ isAlive()
+comment6.text=\r\n\ checks\ if\ character\ alive.\ \r\n
 comment7.params=
 comment7.target=java.lang.String\ getName()
+comment7.text=\r\n\ getters\r\n
 comment8.params=
 comment8.target=int\ getHealth()
 comment9.params=

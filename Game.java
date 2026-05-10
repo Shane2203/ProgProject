@@ -1,10 +1,14 @@
 /**
  * Represents a video game.
+ * This class provides method to control gameplay
+ * 
+ * this is the base for the other classes.
  * 
  * @author Rushane
  */
 public class Game
 {
+    //attributes for the game
     private String gameName;
     private String developer;
     private double version;
@@ -13,6 +17,9 @@ public class Game
     private double rating;
     private boolean isPaused;
 
+    /*
+     * Constructor intializes all important attributes.
+     */
     public Game(String name, String developer, double version,
                 PlatformType platform, GenreType genre, double rating)
     {
@@ -45,7 +52,10 @@ public class Game
     {
         System.out.println("Game stopped.");
     }
-
+    
+    /*
+     * Getters
+     */
     public String getGameName() 
     { 
         return gameName; 
@@ -80,7 +90,10 @@ public class Game
     { 
         return isPaused; 
     }
-
+    
+    /*
+     * Setters
+     */
     public void setGameName(String gameName) 
     { 
         this.gameName = gameName; 
@@ -110,13 +123,19 @@ public class Game
     { 
         this.rating = rating; 
     }
-
+    
+    /*
+     * returns description of game.
+     */
     @Override 
     public String toString()
     {
         return gameName + " by " + developer + " (" + platform + ")";
     }
-
+    
+    /*
+     * Compares two game objects.
+     */
     @Override
     public boolean equals(Object obj)
     {
