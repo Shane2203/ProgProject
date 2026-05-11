@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class Multiplayer here.
  *
@@ -11,6 +11,7 @@ public class Multiplayer extends Game
     private int maxPlayers;
     private int playerCount;
     private GameModeType gameMode;
+    private ArrayList <Character> characters;
     
     /**
      * Constructor for objects of class Multiplayer

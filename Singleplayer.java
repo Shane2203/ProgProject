@@ -10,7 +10,8 @@ public class Singleplayer extends Game
     // instance variables - replace the example below with your own
     private DifficultyLevel difficultyLevel;
     private int currentCheckpoint;
-    private double storyProgress;
+    private double storyProgress;    
+    private Character activeCharacter;
 
     /**
      * Constructor for objects of class Singleplayer
@@ -24,8 +25,10 @@ public class Singleplayer extends Game
         this.currentCheckpoint = 0; // Starting value
         this.storyProgress = 0.0; // 0% progress
         
-    
-
+    }
+    public void startSoloGame()
+    {
+        System.out.println("Starting game for: " + activeCharacter.getName());
     }
     public DifficultyLevel getDIfficultyLevel()
     {

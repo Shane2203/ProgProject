@@ -127,4 +127,8 @@ public class GameLibrary
         GameLibrary other = (GameLibrary) obj;
         return games.equals(other.games);
     }
+    public static void main(String[] args)
+    {
+        System.out.println("monkey");
+    }
 }

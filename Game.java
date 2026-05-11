@@ -16,6 +16,7 @@ public class Game
     private GenreType genre;
     private double rating;
     private boolean isPaused;
+    
 
     /*
      * Constructor intializes all important attributes.
