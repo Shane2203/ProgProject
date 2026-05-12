@@ -1,7 +1,9 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
+This is the Game Library Project. The purpose of this project is to add 
+new games into your library and give details, such as: Name, Genre, 
+Rating, Platform Type, GameMode Type, Recommended Age, and Difficulty 
+Level. You will need to use the Main class to add, remove, list games
+and you can also search games by Genre.
 
 
 

@@ -1,3 +1,6 @@
+import java.util.Scanner;
+import java.util.List;
+
 /**
  * Represents a video game.
  * This class provides method to control gameplay
@@ -16,8 +19,14 @@ public class Game
     private GenreType genre;
     private double rating;
     private boolean isPaused;
+<<<<<<< Updated upstream
     
 
+=======
+    private static Scanner scanner = new Scanner(System.in);
+    private static GameLibrary library = new GameLibrary();
+    
+>>>>>>> Stashed changes
     /*
      * Constructor intializes all important attributes.
      */
@@ -31,6 +40,7 @@ public class Game
         this.genre = genre;
         this.rating = rating;
         this.isPaused = false;
+        new Game(name, developer, version, platform, genre, rating); 
     }
 
     public void startGame()
@@ -145,5 +155,92 @@ public class Game
 
         Game other = (Game) obj;
         return gameName.equals(other.gameName) && developer.equals(other.developer);
+    }
+    
+    public static void addGame()
+    {
+        System.out.print("Enter game name: ");
+        String name = scanner.nextLine();
+    
+        System.out.print("Enter developer: ");
+        String developer = scanner.nextLine();
+    
+        System.out.print("Enter version: ");
+        double version = scanner.nextDouble();
+        scanner.nextLine();
+    
+        System.out.println("Choose Platform:");
+        System.out.println("1. PC");
+        System.out.println("2. PLAYSTATION");
+        System.out.println("3. XBOX");
+        System.out.println("4. SWITCH");
+    
+        int platformChoice = scanner.nextInt();
+        scanner.nextLine();
+    
+        PlatformType platform = null;
+    
+        switch(platformChoice)
+        {
+            case 1:
+                platform = PlatformType.PC;
+                break;
+    
+            case 2:
+                platform = PlatformType.PLAYSTATION;
+                break;
+    
+            case 3:
+                platform = PlatformType.XBOX;
+                break;
+    
+            case 4:
+                platform = PlatformType.NINTENDO_SWITCH;
+                break;
+    
+            default:
+                System.out.println("Invalid platform.");
+                return;
+        }
+    
+        System.out.println("Choose Genre:");
+        System.out.println("1. ACTION");
+        System.out.println("2. RPG");
+        System.out.println("3. SPORTS");
+    
+        int genreChoice = scanner.nextInt();
+        scanner.nextLine();
+    
+        GenreType genre = null;
+    
+        switch(genreChoice)
+        {
+            case 1:
+                genre = GenreType.ACTION;
+                break;
+    
+            case 2:
+                genre = GenreType.RPG;
+                break;
+    
+            case 3:
+                genre = GenreType.SPORTS;
+                break;
+    
+            default:
+                System.out.println("Invalid genre.");
+                return;
+        }
+    
+        System.out.print("Enter rating: ");
+        double rating = scanner.nextDouble();
+        scanner.nextLine();
+    
+        Game game = new Game(name, developer, version,
+                             platform, genre, rating);
+    
+        library.addGame(game);
+    
+        System.out.println("Game added successfully.");
     }
 }
