@@ -19,14 +19,14 @@ public class Game
     private GenreType genre;
     private double rating;
     private boolean isPaused;
-<<<<<<< Updated upstream
+    <<<<<<< Updated upstream
     
 
-=======
+    =======
     private static Scanner scanner = new Scanner(System.in);
     private static GameLibrary library = new GameLibrary();
     
->>>>>>> Stashed changes
+    >>>>>>> Stashed changes
     /*
      * Constructor intializes all important attributes.
      */
