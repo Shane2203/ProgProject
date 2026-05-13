@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Main
-comment0.text=\r\n\ Represents\ a\ video\ game.\r\n\ This\ class\ is\ the\ main\ class\ where\ you\ build\ your\ library.\ \r\n\ @author\ Ozgur\r\n
+comment0.text=\n\ Represents\ a\ video\ game.\n\ This\ class\ is\ the\ main\ class\ where\ you\ build\ your\ library.\ \n\ @author\ Ozgur\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=

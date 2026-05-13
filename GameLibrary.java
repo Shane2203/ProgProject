@@ -129,6 +129,6 @@ public class GameLibrary
     }
     public static void main(String[] args)
     {
-        System.out.println("monkey");
+        System.out.println();
     }
 }
