@@ -79,6 +79,8 @@ public class Main
         System.out.println("1. PC");
         System.out.println("2. PLAYSTATION");
         System.out.println("3. XBOX");
+        System.out.println("4. NINTENDO_SWITCH");
+        System.out.println("5. STEAM_DECK");
     
         int platformChoice = scanner.nextInt();
         scanner.nextLine();
@@ -98,6 +100,14 @@ public class Main
             case 3:
                 platform = PlatformType.XBOX;
                 break;
+            
+            case 4:
+                platform = PlatformType.NINTENDO_SWITCH;
+                break;
+            
+            case 5:
+                platform = PlatformType.STEAM_DECK;
+                break;
     
             default:
                 System.out.println("Invalid platform.");
@@ -108,7 +118,9 @@ public class Main
         System.out.println("1. ACTION");
         System.out.println("2. RPG");
         System.out.println("3. SPORTS");
-    
+        System.out.println("4. STRATEGY");
+        System.out.println("5. HORROR");
+        
         int genreChoice = scanner.nextInt();
         scanner.nextLine();
     
@@ -127,7 +139,15 @@ public class Main
             case 3:
                 genre = GenreType.SPORTS;
                 break;
+            
+            case 4:
+                genre = GenreType.STRATEGY;
+                break;
     
+            case 5:
+                genre = GenreType.HORROR;
+                break;
+            
             default:
                 System.out.println("Invalid genre.");
                 return;
@@ -191,6 +211,8 @@ public class Main
         System.out.println("1. ACTION");
         System.out.println("2. RPG");
         System.out.println("3. SPORTS");
+        System.out.println("4. Strategy");
+        System.out.println("5. Horror");
 
         int choice = scanner.nextInt();
         scanner.nextLine();
@@ -210,7 +232,15 @@ public class Main
             case 3:
                 genre = GenreType.SPORTS;
                 break;
+            
+            case 4:
+                genre = GenreType.STRATEGY;
+                break;
 
+            case 5:
+                genre = GenreType.HORROR;
+                break;
+            
             default:
                 System.out.println("Invalid genre.");
                 return;
