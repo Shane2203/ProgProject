@@ -26,32 +26,39 @@ public class Singleplayer extends Game
         this.storyProgress = 0.0; // 0% progress
         
     }
+    
     public void startSoloGame()
     {
         System.out.println("Starting game for: " + activeCharacter.getName());
     }
+    
     public DifficultyLevel getDIfficultyLevel()
     {
         return difficultyLevel; //Returns the current difficulty
     }
+    
     public int getCurrentCheckpoint()
     {
         return currentCheckpoint; //Returns the number of the current checkpoint
     }
+    
     public double getStoryProgress()
     { 
         return storyProgress;
     }
+    
     public void setDifficultyLevel(DifficultyLevel difficultyLevel)
     {
         this.difficultyLevel = difficultyLevel; 
         // Allows to change the difficulty mid-game
     }
+    
     public void setCurrentCheckpoint(int currentCheckpoint)
     {
         this.currentCheckpoint = currentCheckpoint;
         //Allows to update the player's checkpoint
     }
+    
     public void setStoryProgress(double storyProgress)
     {
         this.storyProgress = storyProgress;
@@ -69,11 +76,13 @@ public class Singleplayer extends Game
     {
         currentCheckpoint = 0;
     }
+    
     @Override 
     public String toString()
     {
         return "Singleplayer Game: " + getGameName() + " | Difficulty: " + difficultyLevel + " | Progress: " + storyProgress + "%";
     }
+    
     @Override
     public boolean equals(Object obj)
     { 

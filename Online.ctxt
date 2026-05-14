@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Online
-comment0.text=\n\ Write\ a\ description\ of\ class\ Online\ here.\n\n\ @author\ (Rushane)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Online\ here.\r\n\r\n\ @author\ (Rushane)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=name\ platform\ maxPlayers\ mode\ serverAddress
 comment1.target=Online(java.lang.String,\ PlatformType,\ int,\ GameModeType,\ java.lang.String)
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Online\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Online\r\n
 comment10.params=
 comment10.target=java.lang.String\ toString()
 comment11.params=obj
@@ -24,5 +24,5 @@ comment8.params=address
 comment8.target=void\ connectToServer(java.lang.String)
 comment9.params=
 comment9.target=void\ disconnect()
-comment9.text=\n\ \n
+comment9.text=\r\n\ \r\n
 numComments=12

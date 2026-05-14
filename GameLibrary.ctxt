@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=GameLibrary
-comment0.text=\n\ Represents\ a\ collection\ of\ games.\n\ This\ class\ organizes,\ stores,\ searches,\ and\ manages\ game\ objects.\ It's\ basically\ a\ database.\n\ \n\ @author\ Rushane/Ozgur\n
+comment0.text=\r\n\ Represents\ a\ collection\ of\ games.\r\n\ This\ class\ organizes,\ stores,\ searches,\ and\ manages\ game\ objects.\ It's\ basically\ a\ database.\r\n\ \r\n\ @author\ Rushane/Ozgur\r\n
 comment1.params=
 comment1.target=GameLibrary()
 comment10.params=
