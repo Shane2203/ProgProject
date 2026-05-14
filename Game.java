@@ -36,7 +36,7 @@ public class Game
         this.genre = genre;
         this.rating = rating;
         this.isPaused = false;
-        new Game(name, developer, version, platform, genre, rating); 
+ 
     }
 
     public void startGame()
