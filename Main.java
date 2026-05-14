@@ -152,7 +152,70 @@ public class Main
                 System.out.println("Invalid genre.");
                 return;
         }
+        
+        System.out.println("Choose Difficulty:");
+        System.out.println("1. EASY");
+        System.out.println("2. NORMAL");
+        System.out.println("3. HARD");
+        
+        int difficultyChoice = scanner.nextInt();
+        scanner.nextLine();
+        
+        DifficultyLevel difficulty = null;
+        
+        switch(difficultyChoice)
+        {
+            case 1:
+                difficulty = DifficultyLevel.EASY;
+                break;
     
+            case 2:
+                difficulty = DifficultyLevel.NORMAL;
+                break;
+    
+            case 3:
+                difficulty = DifficultyLevel.HARD;
+                break;
+            
+            default:
+                System.out.println("Invalid difficulty.");
+                return;
+        }
+        
+        System.out.println("Choose Gamemode Type:");
+        System.out.println("1. CO_OP");
+        System.out.println("2. VERSUS");
+        System.out.println("3. TEAM_DEATHMATCH");
+        System.out.println("4. BATTLE_ROYALE");
+        
+        int gamemodeChoice = scanner.nextInt();
+        scanner.nextLine();
+        
+        GameModeType gamemode = null;
+        
+        switch(gamemodeChoice)
+        {
+            case 1:
+                gamemode = GameModeType.CO_OP;
+                break;
+                
+            case 2:
+                gamemode = GameModeType.VERSUS;
+                break;
+                
+            case 3:
+                gamemode = GameModeType.TEAM_DEATHMATCH;
+                break;
+                
+            case 4:
+                gamemode = GameModeType.BATTLE_ROYALE;
+                break;
+                
+            default:
+                System.out.println("Invalid Gamemode");
+                return;
+        }
+        
         System.out.print("Enter rating: ");
         double rating = scanner.nextDouble();
         scanner.nextLine();
