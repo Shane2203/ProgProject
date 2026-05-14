@@ -137,7 +137,7 @@ public class Game
     @Override 
     public String toString()
     {
-        return gameName + " by " + developer + " (" + platform + ")";
+        return gameName + " , version: " + version + " , Genre: " + genre + " by " + developer + " (" + platform + ")";
     }
     
     /*
