@@ -64,7 +64,6 @@ public class Singleplayer extends Game
         this.storyProgress = storyProgress;
         //Allows to update the progress
     }
-    
 
     public void loadCheckpoint()
     {

@@ -25,30 +25,37 @@ public class Multiplayer extends Game
         this.gameMode = mode;
         
     }
+    
     public int getMaxPlayers()
     {
         return maxPlayers;
     }
+    
     public void setMaxPlayers(int maxPlayers)
     {
         this.maxPlayers = maxPlayers;
     }
+    
     public int getPlayerCount()
     {
         return playerCount;
     }
+    
     public void setPlayerCount(int playerCount)
     {
         this.playerCount = playerCount;
     }
+    
     public GameModeType getGameMode()
     {
         return gameMode;
     }
+    
     public void setGameMode(GameModeType mode)
     {
         this.gameMode = mode;
     }
+    
     public void addPlayer()
     {
         if(!isLobbyFull()){
@@ -65,11 +72,13 @@ public class Multiplayer extends Game
     {
         this.gameMode = mode;
     }
+    
     @Override
     public String toString()
     {
         return super.toString() + " | Mode: " + gameMode + " Players: " + playerCount + "/" + maxPlayers;  
     }
+    
     @Override
     public boolean equals(Object obj)
     { 
